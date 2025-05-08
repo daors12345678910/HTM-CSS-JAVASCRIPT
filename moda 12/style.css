@@ -1,0 +1,34 @@
+
+.coral-pixels-regular {
+    font-family: "google", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  h1{
+    color:aliceblue;
+    word-spacing: 40px;
+    letter-spacing: 20px;
+}
+
+p{
+    text-align: end;
+    text-indent: 1000px;
+    font-family:  "google", serif;
+}
+
+H2 {
+    text-decoration: line-through;
+}
+
+h3{
+    text-decoration: overline;
+}
+
+h4{
+    text-decoration: underline;
+}
+
+.test {
+
+    color:aliceblue
+}
