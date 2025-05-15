@@ -32,3 +32,20 @@ td, th{
 table{
     border-collapse: collapse;
 }
+
+tbody tr:nth-child(odd) {
+    background-color: blue;
+
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(0, 255, 85);
+    
+}
+
+div{
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
