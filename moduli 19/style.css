@@ -1,0 +1,267 @@
+/* .container {
+    display:flex;
+    background-color: blue;
+}
+
+.container div{
+
+    margin:16px;
+    background-color: color-mix(in srgb, color percentage, color percentage);
+    padding:35px;
+    color:color-mix(in hsl shorter hue, color percentage, color percentage);
+    font-size: 35px;
+    
+}
+
+.container div:nth-child(1) {
+
+    order: 1;
+
+}
+.container div:nth-child(12) {s
+
+    order: 0;
+    
+}
+.container div:nth-child(3) {
+
+    order: 2;
+    
+}
+.container div:nth-child(4) {
+
+    order: 3;
+    
+} */
+
+/* .container2 {
+    display:flex;
+    background-color: blue;
+    flex-direction: row-reverse;
+}
+
+.container2 div{
+
+    margin:16px;
+    background-color: color-mix(in srgb, color percentage, color percentage);
+    padding:35px;
+    color:color-mix(in hsl shorter hue, color percentage, color percentage);
+    font-size: 35px;
+    
+} */
+
+.container5 {
+    display:flex;
+    background-color: blue;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.container5 div{
+
+    margin:16px;
+    background-color: color-mix(in srgb, color percentage, color percentage);
+    padding:35px;
+    color:color-mix(in hsl shorter hue, color percentage, color percentage);
+    font-size: 35px;
+    
+}
+
+
+
+.container div:nth-child(1) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}
+
+
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  vvvv
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  vvvv
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  vvvvvvv
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  vvvv
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  
+.container div:nth-child(2) {
+
+    align-self:flex-end;
+    
+}  vv
+
+
+
+

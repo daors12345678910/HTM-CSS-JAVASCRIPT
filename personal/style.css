@@ -1,0 +1,106 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #02457a;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+/* Hero Section */
+.hero {
+  padding: 3rem 2rem;
+  background: linear-gradient(to right, #e3f2fd, #fff);
+  text-align: center;
+}
+
+.hero h2 {
+  color: #02457a;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  max-width: 800px;
+  margin: 0 auto 1rem;
+  font-size: 1.1rem;
+}
+
+.opening h2 {
+  font-weight: bold;
+  font-family: 'Michroma', sans-serif;
+  font-size: 1.5rem;
+}
+
+
+.tittle h1{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+.cta-button {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #0077b6;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #005f8f;
+}
+
+
+footer {
+  background-color: #02457a;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}

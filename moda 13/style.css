@@ -1,0 +1,51 @@
+ul{
+    list-style: armenian;
+    border: 1px, solid, rgb(0, 19, 128);
+
+}
+
+ul li{
+    
+    border-left: 3px, solid rgb(133, 40, 40);
+    padding: 8px 16px;
+}
+
+ol{
+    background-color: aquamarine;
+    list-style: decimal;
+    
+}
+
+ol li{
+
+    padding:56px;
+    margin: 10px;
+    background-color: aquamarine;
+
+}
+
+td, th{
+    border: 1px, solid, blue;
+    padding: 15px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: blue;
+
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(0, 255, 85);
+    
+}
+
+div{
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
