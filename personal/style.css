@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,7 +12,7 @@ body {
   line-height: 1.6;
 }
 
-/* Header */
+
 header {
   background-color: #02457a;
   color: white;
@@ -43,7 +43,7 @@ nav a:hover {
   color: #ffd700;
 }
 
-/* Hero Section */
+
 .hero {
   padding: 3rem 2rem;
   background: linear-gradient(to right, #e3f2fd, #fff);
@@ -96,6 +96,36 @@ nav a:hover {
   background-color: #005f8f;
 }
 
+.historik h3{
+
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-decoration-style: double;
+  text-align:center;
+  margin-top: 20px;
+
+  
+  
+}
+
+.historik{
+
+  border-radius: 20px;
+  border: #02457a solid 4px;
+  margin-top:185px;
+
+
+
+}
+
+.historik p {
+
+  
+  margin-top: 55px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+}
+
 
 footer {
   background-color: #02457a;
@@ -104,3 +134,5 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+
+
