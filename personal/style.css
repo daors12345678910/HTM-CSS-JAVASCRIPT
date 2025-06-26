@@ -91,10 +91,44 @@ header {
   margin: auto;
 }
 
+<<<<<<< HEAD
 .hero-img img {
   max-width: 100%;
   height: auto;
   margin-top: 2rem;
+=======
+.opening h2 {
+  font-weight: bold;
+  font-family: 'Michroma', sans-serif;
+  font-size: 1.4rem;
+}
+
+.guide p {
+  margin-top: 1.2rem;
+  font-size: 1.05rem;
+  font-style: italic;
+  color: #444;
+}
+
+.features {
+  padding: 2rem;
+  background-color: #f0f4f8;
+  text-align: center;
+  margin-right: 100px;
+}
+
+.tittle-box h2 {
+  font-size: 1.8rem;
+  color: #02457a;
+  margin-bottom: 1.5rem;
+}
+
+.services {
+  background-color: #f0f4f8;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 600px;
+>>>>>>> 9baf5af27269d60a250c6e86c92f696a693ef0d2
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
