@@ -1,125 +1,134 @@
-/* Stili i përgjithshëm */
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f7f9fb;
-  color: #1e1e1e;
-  line-height: 1.6;
+  background-color: #fcfcfc;
+  color: #2e2e2e;
 }
 
-/* Kontejneri kryesor */
 .container {
   width: 90%;
   max-width: 1100px;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
-/* Navbar */
 .navbar {
-  background-color: #ececec;
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  padding: 1rem 0;
-  flex-wrap: wrap;
+  overflow: hidden;
+  background-color: #02457a;
+  font-family: Arial;
 }
 
-.nav-link, .dropbtn {
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  background: none;
-  border: none;
-  font-size: 1rem;
-  cursor: pointer;
-  color: #374151;
-  font-weight: bold;
 }
+
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+  float: left;
+  overflow: hidden;
 }
+
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color:yellow;
+}
+
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
+
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-.dropdown-content a {
-  color: #2c2c2c;
-  padding: 10px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #f0f0f0;
-}
-
-
-/* Header */
 .header-mitrovica {
   background-color: #14213d;
-  color: #fff;
+  color: white;
+  padding: 2rem 1rem;
   text-align: center;
-  padding: 2.5rem 1rem;
 }
 
 .subtitle {
-  font-size: 1.25rem;
-  color: #e0e0e0;
+  font-size: 1.2rem;
   margin-top: 0.5rem;
+  color: #e5e5e5;
 }
 
-/* Tituj */
 h1, h2 {
   font-weight: 700;
-  margin-bottom: 0.5rem;
 }
 
-/* Highlight */
 .highlight {
-  background-color: #caf0f8;
+  background-color: #e0fbfc;
   padding: 1.5rem;
   border-radius: 10px;
   margin-top: 2rem;
 }
 
-/* Kartat */
 .cards {
   margin-top: 3rem;
 }
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.5rem;
 }
 
 .card {
   background-color: #ffffff;
-  border-radius: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
   padding: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-  color: #007f5f;
+  color:green;
 }
 
-/* Galeria */
 .gallery .images {
   display: flex;
   flex-wrap: wrap;
@@ -130,18 +139,19 @@ h1, h2 {
 
 .gallery img {
   max-width: 300px;
-  border-radius: 12px;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Historiku */
+
+
 .historik {
-  background: linear-gradient(to right, #e8f0fe, #ffffff);
+  background: linear-gradient(to right, #e3f2fd, #fff);
   padding: 2rem;
   margin: 2rem auto;
   max-width: 900px;
   border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
 
 .historik h2 {
@@ -153,13 +163,12 @@ h1, h2 {
 }
 
 .historik p {
-  font-family: 'Georgia', serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.1rem;
   margin-top: 1rem;
   line-height: 1.8;
 }
 
-/* Hover Info Image */
 .hover-box {
   position: relative;
   display: inline-block;
@@ -168,26 +177,27 @@ h1, h2 {
   cursor: pointer;
 }
 
+
 .hover-image {
   position: absolute;
-  top: 110%;
+  top: 120%;
   left: 0;
-  width: 160px;
+  width: 150px;
   display: none;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
   border-radius: 8px;
 }
+
 
 .hover-box:hover .hover-image {
   display: block;
 }
 
-/* Footer */
+
 footer {
   background-color: #14213d;
   color: white;
   text-align: center;
-  padding: 1.5rem;
+  padding: 1rem;
   margin-top: 3rem;
-  font-size: 14px;
 }

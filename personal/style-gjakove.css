@@ -1,0 +1,146 @@
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #f9f7f3;
+  margin: 0;
+  padding: 0;
+  color: #2e2e2e;
+  line-height: 1.7;
+}
+
+.header-gjakove {
+  background: linear-gradient(to right, #8e5a35, #c68b59);
+  color: #fff;
+  text-align: center;
+  padding: 2.5rem 1rem;
+}
+
+.header-gjakove h1 {
+  margin: 0;
+  font-size: 2.8rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ede0d4;
+  flex-wrap: wrap;
+  padding: 0.8rem 0;
+  gap: 1rem;
+}
+
+.nav-link, .dropbtn {
+  text-decoration: none;
+  color: #4e342e;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.nav-link:hover, .dropbtn:hover {
+  color: #6d4c41;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 180px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 1;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.dropdown-content a {
+  color: #4e342e;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  display: block;
+  font-size: 0.95rem;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1e8e1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+.highlight h2, .historik h2, .gallery h2 {
+  color: #5d4037;
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+}
+
+.cards {
+  margin-top: 2rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd0c8;
+  border-radius: 12px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #6d4c41;
+}
+
+.gallery .images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.historik p, .highlight p {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 0.5rem;
+}
+
+footer {
+  background-color: #e0cfc2;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #4e342e;
+  margin-top: 2rem;
+}

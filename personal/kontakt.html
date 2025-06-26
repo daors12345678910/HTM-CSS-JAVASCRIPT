@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kontakti</title>
+  <link rel="stylesheet" href="kontakt.css" />
+
+
+   <nav class="navbar">
+      <a href="index.html" class="nav-link">🏠 Kryefaqja</a>
+      <a href="kontakt.html" class="nav-link">📞 Kontakte</a>
+      <div class="dropdown">
+        <button class="dropbtn">🗺️ Destinacionet <span class="arrow">▼</span></button>
+        <div class="dropdown-content">
+          <a href="prishtina.html">🏙️ Prishtinë</a>
+          <a href="mitrovice.html">⛰️ Mitrovicë</a>
+          <a href="peje.html">🏔️ Pejë</a>
+          <a href="prizren.html">🏰 Prizren</a>
+          <a href="ferizaj.html">🌿 Ferizaj</a>
+          <a href="gjilan.html">🌾 Gjilan</a>
+          <a href="gjakove.html">🌸 Gjakovë</a>
+        </div>
+      </div>
+    </nav>
+</head>
+<body>
+  <div class="contact-container">
+    <h1>Na Kontaktoni</h1>
+
+    <div class="info">
+      <p><strong>Adresa:</strong> Rr. Shembull 123, Prishtinë, Kosovë</p>
+      <p><strong>Email:</strong> info@shembull.com</p>
+      <p><strong>Telefoni:</strong> +383 44 123 456</p>
+    </div>
+
+    <form class="contact-form">
+      <label for="name">Emri juaj:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email-i juaj:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Mesazhi:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Dërgo Mesazhin</button>
+    </form>
+  </div>
+</body>
+</html>
