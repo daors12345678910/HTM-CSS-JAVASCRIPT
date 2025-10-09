@@ -48,15 +48,11 @@ btn1.onclick=function(){
     text.style.color="red";
     text.style.backgroundColor="blue";
     text.style.textAlign='center';
-    tx2.setAttribute("class", "txt2")
-
-
-
-
+   tx2.setAttribute("class", "txt2")
 }
 
 btn2.onclick=function(){
 
-    text.setAttribute('class', 'tx1')
+    tx2.setAttribute('class', 'tx1');
   
 }
